@@ -26,7 +26,7 @@ export default function Login({ onLogin }: LoginProps) {
         <div className="text-center mb-6">
           <h1 className="text-3xl mb-2 flex flex-col items-center justify-center gap-2">
             <img
-              src="https://i.imgur.com/QRhk5u0.png"
+              src="/visura-logo.png"
               alt="Visura logo"
               className="w-20 h-20 object-contain"
             />
