@@ -88,7 +88,7 @@ export default function Register({ onRegister }: RegisterProps) {
             </RadioGroup>
           </div>
 
-          <Button type="submit" className="w-full bg-black text-white border-2 border-black">
+          <Button type="submit" className="w-full bg-blue-600 text-white hover:bg-blue-700">
             הירשם
           </Button>
 
@@ -96,7 +96,7 @@ export default function Register({ onRegister }: RegisterProps) {
             <button
               type="button"
               onClick={() => navigate('/login')}
-              className="text-gray-600 underline"
+              className="text-blue-600 underline hover:text-blue-800"
             >
               כבר יש לך חשבון? התחבר כאן
             </button>
