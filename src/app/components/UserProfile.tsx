@@ -67,7 +67,7 @@ export default function UserProfile() {
 
         <Button
           onClick={() => navigate(`/messages/${userId}`)}
-          className="w-full bg-black text-white border-2 border-black"
+          className="w-full bg-blue-600 text-white hover:bg-blue-700"
         >
           שלח הודעה
         </Button>
